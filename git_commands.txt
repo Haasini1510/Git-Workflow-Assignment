@@ -1,0 +1,75 @@
+
+GIT COMMANDS USED IN THE ASSIGNMENT
+===================================
+
+1. git init
+   Initializes a new Git repository in the project folder.
+
+2. git branch -M main
+   Renames the default branch to main.
+
+3. git status
+   Displays the current repository status and modified or untracked files.
+
+4. git add .
+   Adds all new and modified files to the staging area.
+
+5. git commit -m "Initial project setup"
+   Records the initial project files as the first commit.
+
+6. git log --oneline
+   Displays the commit history in a short format.
+
+7. git commit -m "Update homepage content"
+   Saves the changes made to the homepage in a new commit.
+
+8. git branch feature
+   Creates a new branch named feature.
+
+9. git switch feature
+   Switches from the main branch to the feature branch.
+
+10. git commit -m "Add feature branch update"
+    Records the changes made on the feature branch.
+
+11. git switch main
+    Switches back to the main branch.
+
+12. git merge feature
+    Merges the feature branch changes into the main branch.
+
+13. git log --oneline --graph --all
+    Displays the commit history and branch structure graphically.
+
+14. git branch
+    Lists all local branches and identifies the current branch.
+
+15. git status --ignored
+    Displays repository status, including ignored files and folders.
+
+16. git add .gitignore
+    Adds the .gitignore file to the staging area.
+
+17. git commit -m "Add gitignore configuration"
+    Saves the .gitignore configuration in Git history.
+
+18. git add index.html
+    Stages changes made to index.html.
+
+19. git commit -m "Add temporary homepage message"
+    Creates an additional commit for demonstrating the undo operation.
+
+20. git revert HEAD
+    Reverses the changes introduced by the most recent commit.
+
+21. git log --oneline -5
+    Displays the five most recent commits.
+
+22. git remote add origin https://github.com/Haasini1510/Git-Workflow-Assignment.git
+    Connects the local repository to the GitHub remote repository.
+
+23. git push -u origin main
+    Pushes the main branch to GitHub and sets its upstream tracking branch.
+
+24. git push -u origin feature
+    Pushes the feature branch to GitHub and sets its upstream tracking branch.
